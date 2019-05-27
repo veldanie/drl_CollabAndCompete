@@ -6,10 +6,6 @@
 
 The environment is solved using **Deep Deterministic Policy Gradient** . In this implementation both agents  (i.e. players) use the same actor and critic network. The experience of both agents is added to the replay buffer. 
 
-The acto
-
- update_every=1, , eps=5, eps_decay=0.998
-
 The local and target networks of the actor and the critic have two hidden fully connected layers with 256 and 128 units. 
 
 * batch size: 64, 
