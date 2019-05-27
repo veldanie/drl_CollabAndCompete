@@ -10,8 +10,6 @@ The action space has 2 dimensions and each variable corresponds to a number betw
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
 
-    ### One Agent
-
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
@@ -21,7 +19,14 @@ The action space has 2 dimensions and each variable corresponds to a number betw
 
     Place the file in the repository directory, and unzip (or decompress) the file.
 
-    
+
+
+# Dependencies
+
+In order to set up the python evironment and install the requiered dependencies, follow the instructions  [here](<https://github.com/udacity/deep-reinforcement-learning#dependencies>).
 
 # Instructions
+
+
+
 The file `dqn_agent.py` corresponds to the agent class and includes the methods for interacting with the environment and training the agents. `model.py` contains the neural network architecture.   `Tennis.ipynb`displays the solution. 
